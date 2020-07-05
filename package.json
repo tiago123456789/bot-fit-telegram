@@ -1,0 +1,20 @@
+{
+  "name": "CHATBOT-FIT",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "node ./src/index.js",
+    "start": "pm2 start ./src/index.js --name 'bot-fit-tiago' "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dialogflow": "^1.2.0",
+    "dotenv": "^8.2.0",
+    "node-telegram-bot-api": "^0.50.0",
+    "redis": "^3.0.2",
+    "youtube-node": "^1.3.3"
+  }
+}
